@@ -74,7 +74,7 @@ export const botConfig = {
     },
 
     // How long users must wait before submitting another application (hours).
-    applicationCooldown: 24,
+    applicationCooldown: 0.03,
 
     // Auto-delete denied applications after this many days.
     deleteDeniedAfter: 7,
@@ -378,9 +378,9 @@ export const botConfig = {
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1560677293511147611,
     // Channel ID for goodbye messages.
-    defaultGoodbyeChannel: null,
+    defaultGoodbyeChannel: 1560681083995955220,
   },
 
   // =========================
